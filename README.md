@@ -1,5 +1,5 @@
 # Chat-With-Image-Using-Gemini-Flash App
-
+![Image Placeholder](https://karnavatiuniversity.edu.in/wp-content/uploads/2023/01/Useful-Insights-on-Artificial-Intelligence-AI-Theorist-Alan-Turing.jpg)
 Welcome to **Chat-With-Image-Using-Gemini-Flash**, an interactive Streamlit-based application that utilizes Google’s **Gemini Pro Vision model** to analyze images and provide insightful responses. This app allows users to upload an image, ask questions about it, and receive comprehensive visual and contextual insights powered by AI. 
 
 ---
@@ -29,7 +29,7 @@ Welcome to **Chat-With-Image-Using-Gemini-Flash**, an interactive Streamlit-base
 
 1. **Clone the Repository**:
    ```bash
-   git clone 
+   git clone https://github.com/JonathanJourney99/Chat-With-Image-Using-Gemini-Flash.git
    cd Chat-With-Image-Using-Gemini-Flash
    ```
 
@@ -53,7 +53,7 @@ Welcome to **Chat-With-Image-Using-Gemini-Flash**, an interactive Streamlit-base
 
 5. **Run the Application**:
    ```bash
-   streamlit run <your_script_name>.py
+   streamlit run main.py
    ```
 
 ---
@@ -95,17 +95,6 @@ GOOGLE_API_KEY=your_google_api_key_here
 
 ---
 
-## Example Output
-
-1. **Uploaded Image**: 
-   ![Sample Image](https://via.placeholder.com/400)
-
-2. **User Query**: *"What is the significance of the colors used?"*
-
-3. **AI Response**: 
-   > The image prominently features blue and gold, which symbolize trust and wealth. The texture adds depth, giving the impression of fluidity and movement.
-
----
 
 ## Credits
 
@@ -115,15 +104,15 @@ This application is built **for fun** using cutting-edge AI models. Background i
 
 ## License
 
-This project is licensed under the MIT License. Feel free to use and modify it for your own purposes.
+This project is licensed under the MIT License.
 
 ---
 
 ## Contact
 
 For any questions or feedback, reach out to:  
-**Email**: your-email@example.com
-
+**Email**: ijonathan.gomes@gmail.com
+**Linkden**:https://www.linkedin.com/in/jonathan-gomes-bb1574289/
 ---
 
 Enjoy chatting with your images! 🎨✨
