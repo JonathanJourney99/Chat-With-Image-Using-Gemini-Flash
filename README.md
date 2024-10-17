@@ -110,9 +110,16 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-For any questions or feedback, reach out to:  
-**Email**: ijonathan.gomes@gmail.com
-**Linkden**:https://www.linkedin.com/in/jonathan-gomes-bb1574289/
----
+Contact
+For any questions or feedback, reach out to:
+# Contact
+<a href="mailto:ijonathan.gomes@gmail.com">
+    <img src="https://github.com/user-attachments/assets/c4b41db7-c326-43a7-b0dd-5d9f2796d163" alt="Email" width="30" height="30" />
+</a> 
+<span>ijonathan.gomes@gmail.com</span>
+
+<a href="https://www.linkedin.com/in/jonathan-gomes-bb1574289/">
+    <img src="https://github.com/user-attachments/assets/5ef798e6-2257-4582-a500-94c704e77f4d" alt="LinkedIn" width="30" height="30" />
+</a>
 
 Enjoy chatting with your images! 🎨✨
