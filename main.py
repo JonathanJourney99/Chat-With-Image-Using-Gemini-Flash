@@ -4,15 +4,14 @@ from dotenv import load_dotenv
 from PIL import Image
 import google.generativeai as genai
 
-# Load environment variables
 load_dotenv()
 
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
-# Load gemini vision model
+
 model = genai.GenerativeModel('gemini-1.5-flash')
 
-# get response from gemini pro vision model
+
 def gemini_vision_response(model,prompt,image):
     prompt = f'''Analyze the image comprehensively:
 1. Describe all visible elements (objects, patterns, relationships)
@@ -25,7 +24,7 @@ Provide an insightful response covering both visual and contextual details.
     response = model.generate_content([prompt,image])
     return response.text
 
-# Set page title ans icon
+
 
 
 st.set_page_config(
@@ -67,8 +66,7 @@ def set_bg_from_url(url, opacity=1):
 """
     st.markdown(footer, unsafe_allow_html=True)
     
-    
-    # Set background image using HTML and CSS
+
     st.markdown(
         f"""
         <style>
@@ -81,6 +79,4 @@ def set_bg_from_url(url, opacity=1):
         """,
         unsafe_allow_html=True
     )
-
-# Set background image from URL
 set_bg_from_url("https://img.freepik.com/free-photo/3d-dark-grunge-display-background-with-smoky-atmosphere_1048-16218.jpg", opacity=0.8)
